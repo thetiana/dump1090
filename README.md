@@ -16,6 +16,7 @@ Install RTL-SDR tools (if not already installed):
  ```bash
 sudo apt-get update
 sudo apt-get install rtl-sdr
+'''
 
 Identify the connected SDR devices:
 
