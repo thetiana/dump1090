@@ -13,10 +13,10 @@ To change the serial number of an SDR device to ensure that your container alway
 Steps to Change SDR Device Serial Number Using rtl_eeprom
 Install RTL-SDR tools (if not already installed):
 
-'''
+('''
 sudo apt-get update
 sudo apt-get install rtl-sdr
-'''
+''')
 Identify the connected SDR devices:
 
 '''
