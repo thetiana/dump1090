@@ -9,7 +9,7 @@ DEVICE_INDEX=$(rtl_test -t 2>&1 | awk -v serial="$DEVICE_SERIAL" '$0 ~ serial {p
 
 if [ -z "$DEVICE_INDEX" ]; then
   echo "No device with serial number $DEVICE_SERIAL found."
-   exit 1
+  exit 1
 fi
 
 echo "Using device index $DEVICE_INDEX for serial number $DEVICE_SERIAL."
